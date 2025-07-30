@@ -1,5 +1,14 @@
+import service.WheaterService;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        //test.
+        //Reemplazar con %20 como en el ejemplo, los nombres de las ciudades que tengan espacios.
+
+        WheaterService wheaterService=new WheaterService();
+
+        System.out.println(wheaterService.findWheater("sfgdhgfd"));
+
     }
 }
